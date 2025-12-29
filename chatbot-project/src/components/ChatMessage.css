@@ -1,0 +1,35 @@
+    .chat-message-user{
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+      color: black;
+      align-items: start;
+      }
+    .chat-message-robot{
+      display: flex;
+      justify-content: flex-start;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+      color: black; 
+      align-items:start;
+    }
+    .chat-message-text{
+      background-color: rgb(238, 238, 238);
+      padding: 15px 20px;
+      border-radius: 10px;
+      color: black;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      max-width: 300px;
+    }
+
+    .robot-icon{
+      width: 45px;
+    }
+    .user-icon{
+      width: 45px;
+    }
